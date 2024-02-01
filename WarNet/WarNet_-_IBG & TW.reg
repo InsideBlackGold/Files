@@ -1,0 +1,4 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Reality Pump\WorldWarIII\BaseGame\Network\EarthNet]
+"AddressIP"="\"EarthNet (IBG)\"\"vpnnetserver.insideearth.info\"\"WarNet (TW)\"\"netserver.earthnet.de\""
