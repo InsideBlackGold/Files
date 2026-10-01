@@ -99,7 +99,7 @@ if ($InstallOpenVPN) {
             Write-Host " - OpenVPN installation completed." -ForegroundColor Green
         }
 
-        $ovpnUrl  = "https://raw.githubusercontent.com/$Repo/$Ref/EarthNet/IBG-BlackGold-VPN-TCP.ovpn"
+        $ovpnUrl  = "https://raw.githubusercontent.com/$Repo/$Ref/WarNet/IBG-BlackGold-VPN-TCP.ovpn"
         $ovpnPath = Join-Path $env:TEMP 'IBG-BlackGold-VPN-TCP.ovpn'
 
         Write-Host " - Downloading OpenVPN profile configuration..." -ForegroundColor Yellow
