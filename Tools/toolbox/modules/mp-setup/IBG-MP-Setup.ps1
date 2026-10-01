@@ -32,8 +32,8 @@ $host.ui.RawUI.WindowTitle = "InsideEARTH - WWIII: Black Gold Multiplayer Setup"
 $Name            = 'InsideEARTH WWIII: Black Gold Community Server'
 $ServerHost      = 'vpnnetserverbg.insideearth.info'
 $ValueName       = 'AddressIP'
-$IEPort          = 17131
-$TWPort          = 17103
+$IEPort          = 17171
+$TWPort          = 17101
 $InstallOpenVPN  = $true
 $Repo            = 'InsideBlackGold/Files'
 $Ref             = 'refs/heads/main'
@@ -41,7 +41,7 @@ $Subnet          = '10.21.80.0/24'
 $SubnetAliases   = @($Subnet, ($Subnet -replace '/24', '/255.255.255.0'))
 
 # Construct the formatted registry string for IP checking
-$addressIpFormatted = '"WarNet""netserver.earth2150.com""InsideEARTH""vpnnetserverbg.insideearth.info:17131"'
+$addressIpFormatted = '"WarNet - TopWare""netserver.earthnet.de""WarNet - TopWareBlackGold""vpnnetserverbg.insideearth.info"'
 
 # Display Banner First
 Write-Host
