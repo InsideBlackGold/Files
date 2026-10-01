@@ -41,7 +41,7 @@ $Subnet          = '10.21.1.0/24'
 $SubnetAliases   = @($Subnet, ($Subnet -replace '/24', '/255.255.255.0'))
 
 # Construct the formatted registry string for IP checking
-$addressIpFormatted = '"WarNet - InsideBlackGold""vpnnetserverbg.insideearth.info""WarNet - TopWare""netserver.earth2150.com"'
+$addressIpFormatted = '"WarNet - InsideBlackGold""vpnnetserver-bg.insideearth.info""WarNet - TopWare""netserver.earth2150.com"'
 
 # Display Banner First
 Write-Host
