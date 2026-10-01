@@ -169,9 +169,10 @@ Write-Host
 Write-Host " [3/3] Configuring Windows Firewall Rules..." -ForegroundColor Cyan
 
 $fwRules = @(
-    @{ Name = 'IBG - Game Port (TCP 17101)'; Protocol = 'TCP'; LocalPort = '17101'; RemoteAddress = $Subnet },
-    @{ Name = 'IBG - Game Port (UDP 17101)'; Protocol = 'UDP'; LocalPort = '17101'; RemoteAddress = $Subnet },
-    @{ Name = 'IBG - ICMPv4 Allow Subnet';        Protocol = 'ICMPv4'; RemoteAddress = $Subnet }
+    @{ Name = 'IBG - DirectPlay Control (TCP 47624)';   Protocol = 'TCP';    LocalPort = '47624';     RemoteAddress = $Subnet },
+    @{ Name = 'IBG - DirectPlay Range (TCP 2300-2400)'; Protocol = 'TCP';    LocalPort = '2300-2400'; RemoteAddress = $Subnet },
+    @{ Name = 'IBG - DirectPlay Range (UDP 2300-2400)'; Protocol = 'UDP';    LocalPort = '2300-2400'; RemoteAddress = $Subnet },
+    @{ Name = 'IBG - ICMPv4 Allow Subnet';         	Protocol = 'ICMPv4'; RemoteAddress = $Subnet }
 )
 
 function Set-IBGFirewallRules {
