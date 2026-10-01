@@ -37,7 +37,7 @@ $TWPort          = 17101
 $InstallOpenVPN  = $true
 $Repo            = 'InsideBlackGold/Files'
 $Ref             = 'refs/heads/main'
-$Subnet          = '10.21.80.0/24'
+$Subnet          = '10.21.1.0/24'
 $SubnetAliases   = @($Subnet, ($Subnet -replace '/24', '/255.255.255.0'))
 
 # Construct the formatted registry string for IP checking
