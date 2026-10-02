@@ -1,5 +1,5 @@
 # =====================================================================
-#   InsideEARTH - WWIII: Black Gold Multiplayer Setup v1.0
+#   InsideBlackGold Multiplayer Setup v1.0
 # =====================================================================
 
 # ---------------------------------------------------------------------
@@ -8,8 +8,8 @@
 #  level-repository were GUESSED from the Earth 2150 naming pattern -
 #  they do not point at anything real yet. Confirm/replace before use:
 #    GitHub repo : InsideBlackGold/Files
-#    VPN server  : vpnnetserverbg.insideearth.info
-#    Subnet      : 10.21.80.0/24
+#    VPN server  : vpnnetserver-bg.insideearth.info
+#    Subnet      : 10.21.1.0/24
 #    Levels repo : InsideBlackGold/Levels
 # ---------------------------------------------------------------------
 
@@ -26,11 +26,11 @@ if (-not $isAdmin) {
 
 Clear-Host
 
-$host.ui.RawUI.WindowTitle = "InsideEARTH - WWIII: Black Gold Multiplayer Setup"
+$host.ui.RawUI.WindowTitle = "InsideBlackGold - WWIII: Black Gold Multiplayer Setup"
 
 # Variable Definitions
-$Name            = 'InsideEARTH WWIII: Black Gold Community Server'
-$ServerHost      = 'vpnnetserverbg.insideearth.info'
+$Name            = 'InsideBlackGold Community Server'
+$ServerHost      = 'vpnnetserver-bg.insideearth.info'
 $ValueName       = 'AddressIP'
 $IEPort          = 17171
 $TWPort          = 17101
@@ -46,7 +46,7 @@ $addressIpFormatted = '"WarNet - InsideBlackGold""vpnnetserver-bg.insideearth.in
 # Display Banner First
 Write-Host
 Write-Host " ===================================================" -ForegroundColor Green
-Write-Host "   InsideEARTH - WWIII: Black Gold Multiplayer Setup v1.0" -ForegroundColor Green
+Write-Host "   InsideBlackGold Multiplayer Setup v1.0" -ForegroundColor Green
 Write-Host " ===================================================" -ForegroundColor Green
 Write-Host
 
