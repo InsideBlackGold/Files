@@ -6,7 +6,7 @@
 .DESCRIPTION
     Files: RP-TW-Media-Converter.ps1 (this script), Reality_Pump___TopWare_-_Media_Converter.cmd
     (double-click / drag-and-drop launcher), README.md.
-    Started as a PowerShell port of twv2mp4-v4.py. Works in Windows PowerShell 5.1 and 7+.
+    Works in Windows PowerShell 5.1 and 7+.
 
     Run it without arguments for a menu that walks you through each task.
 
